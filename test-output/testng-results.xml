@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[---Connect to DB---]]>
+    </line>
+    <line>
+      <![CDATA[---Open Browser---]]>
+    </line>
+    <line>
+      <![CDATA[bookTour--->Testscript execution started]]>
+    </line>
+    <line>
+      <![CDATA[bookTour-->Testscript executed successfully]]>
+    </line>
+    <line>
+      <![CDATA[cancelBooking--->Testscript execution started]]>
+    </line>
+    <line>
+      <![CDATA[cancelBooking-->Testscript executed successfully]]>
+    </line>
+    <line>
+      <![CDATA[-----Closed Browser----]]>
+    </line>
+    <line>
+      <![CDATA[-----Closed DB----]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-03-31T12:22:27 IST" name="Default suite" finished-at="2023-03-31T12:26:08 IST" duration-ms="220186">
+    <groups>
+    </groups>
+    <test started-at="2023-03-31T12:22:27 IST" name="Default test" finished-at="2023-03-31T12:26:08 IST" duration-ms="220186">
+      <class name="com.tms.testscripts.Test002">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.tms.testscripts.Test002@4d5650ae]" started-at="2023-03-31T12:22:27 IST" name="configBS" finished-at="2023-03-31T12:22:27 IST" duration-ms="326" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[---Connect to DB---]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.tms.testscripts.Test002@4d5650ae]" started-at="2023-03-31T12:22:28 IST" name="configBC" finished-at="2023-03-31T12:22:30 IST" duration-ms="2351" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[---Open Browser---]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.tms.testscripts.Test002@4d5650ae]" started-at="2023-03-31T12:22:30 IST" name="configBM" finished-at="2023-03-31T12:22:31 IST" duration-ms="1023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="bookTour()[pri:0, instance:com.tms.testscripts.Test002@4d5650ae]" started-at="2023-03-31T12:22:31 IST" name="bookTour" finished-at="2023-03-31T12:25:59 IST" duration-ms="208255" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[bookTour--->Testscript execution started]]>
+            </line>
+            <line>
+              <![CDATA[bookTour-->Testscript executed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bookTour -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.tms.testscripts.Test002@4d5650ae]" started-at="2023-03-31T12:25:59 IST" name="configBM" finished-at="2023-03-31T12:26:00 IST" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method is-config="true" signature="configAM(org.testng.ITestResult)[pri:0, instance:com.tms.testscripts.Test002@4d5650ae]" started-at="2023-03-31T12:25:59 IST" name="configAM" finished-at="2023-03-31T12:25:59 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=bookTour status=SUCCESS method=Test002.bookTour()[pri:0, instance:com.tms.testscripts.Test002@4d5650ae] output=bookTour--->Testscript execution started]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method signature="cancelBooking()[pri:0, instance:com.tms.testscripts.Test002@4d5650ae]" started-at="2023-03-31T12:26:00 IST" name="cancelBooking" finished-at="2023-03-31T12:26:07 IST" duration-ms="7617" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[cancelBooking--->Testscript execution started]]>
+            </line>
+            <line>
+              <![CDATA[cancelBooking-->Testscript executed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cancelBooking -->
+        <test-method is-config="true" signature="configAM(org.testng.ITestResult)[pri:0, instance:com.tms.testscripts.Test002@4d5650ae]" started-at="2023-03-31T12:26:07 IST" name="configAM" finished-at="2023-03-31T12:26:07 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cancelBooking status=SUCCESS method=Test002.cancelBooking()[pri:0, instance:com.tms.testscripts.Test002@4d5650ae] output=cancelBooking--->Testscript execution started]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.tms.testscripts.Test002@4d5650ae]" started-at="2023-03-31T12:26:07 IST" name="configAC" finished-at="2023-03-31T12:26:08 IST" duration-ms="392" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[-----Closed Browser----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.tms.testscripts.Test002@4d5650ae]" started-at="2023-03-31T12:26:08 IST" name="configAS" finished-at="2023-03-31T12:26:08 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[-----Closed DB----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- com.tms.testscripts.Test002 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
