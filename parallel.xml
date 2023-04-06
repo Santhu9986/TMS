@@ -3,14 +3,12 @@
 <suite name="Suite" thread-count="2" parallel="tests">
   <test name="Test1" parallel="tests" preserve-order="true">
     <classes>
-      <class name="com.tms.Practice.TC_001"/>
-      <class name="com.tms.Practice.TC_002"/>
+            <class name="com.tms.testscripts.Test002"/>
     </classes>
   </test> <!-- Test -->
   <test name="Test2" parallel="tests" preserve-order="true">
     <classes>
-      <class name="com.tms.Practice.TC_003"/>
-      <class name="com.tms.Practice.TC_004"/>
+    <class name="com.tms.testscripts.Test003"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
