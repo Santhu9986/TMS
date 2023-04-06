@@ -44,7 +44,7 @@ public class PackageListPage {
 		for(int i=0;i<packageNameList.size();i++)
 		{
 			WebDriverUtility.scrollAction(packageNameList.get(i), driver);
-		//	WebDriverUtility.waitForElementToBeVisible(packageNameList.get(i), driver);
+			WebDriverUtility.waitForElementToBeVisible(packageNameList.get(i), driver);
 			if((packageNameList.get(i).getText()).contains(packageName) && (priceList.get(i).getText()).contains(price))
 			{
 				detailsLinkList.get(i).click();
